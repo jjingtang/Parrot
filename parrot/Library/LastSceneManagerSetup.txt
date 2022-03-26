@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Resources/POLYTEX - Home/Scenes/Bedroom Scene.unity
+  isLoaded: 1
+  isActive: 1
