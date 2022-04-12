@@ -15,7 +15,7 @@ E:/Parrot/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58035
+56253
 Successfully changed project path to: E:/Parrot/My project
 E:/Parrot/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ E:/Parrot/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 196.34 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 205.73 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.00 ms.
 Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/Parrot/My project/Assets
@@ -64,48 +64,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013182 seconds.
+Registered in 0.016009 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.59 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 176.06 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1006ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (122ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (80ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014815 seconds.
+Registered in 0.010912 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 182.91 ms, found 12 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 211.37 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -114,46 +119,46 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.70.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.893 seconds
+- Completed reload, in  2.218 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1894ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (2219ms)
+		BeginReloadAssembly (316ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1567ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (165ms)
+		EndReloadAssembly (1695ms)
+			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
+			SetupTypeCache (415ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (98ms)
-			SetupLoadedEditorAssemblies (825ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (908ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (183ms)
-				BeforeProcessingInitializeOnLoad (144ms)
-				ProcessInitializeOnLoadAttributes (430ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				RefreshPlugins (211ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 2.35 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 4983 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (276.0 KB). Loaded Objects now: 5405.
-Memory consumption went from 184.8 MB to 184.5 MB.
-Total: 7.795000 ms (FindLiveObjects: 0.720200 ms CreateObjectMapping: 0.663500 ms MarkObjects: 6.039000 ms  DeleteObjects: 0.370500 ms)
+Unloading 72 unused Assets / (281.6 KB). Loaded Objects now: 5407.
+Memory consumption went from 183.7 MB to 183.4 MB.
+Total: 4.186700 ms (FindLiveObjects: 0.503600 ms CreateObjectMapping: 0.465300 ms MarkObjects: 3.014700 ms  DeleteObjects: 0.202000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,331 +173,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 690548.843187 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bathroom.prefab
-  artifactKey: Guid(d283dde887323b34881847ba165b46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bathroom.prefab using Guid(d283dde887323b34881847ba165b46a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb842f3cf843673280b72059d2997c70') in 0.362171 seconds 
+  Time since last request: 3392.610353 seconds.
+  path: Assets/Oculus/Voice/Demo/Data/Shapes Demo - WitConfiguration.asset
+  artifactKey: Guid(b3d5ad89f091a0a4785d8fbbfdd39448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Demo/Data/Shapes Demo - WitConfiguration.asset using Guid(b3d5ad89f091a0a4785d8fbbfdd39448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8101b1099d4e2ba46ba443dba0aeb788') in 0.046124 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs
-  artifactKey: Guid(cfd5097c524fbe647928628fc330a9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs using Guid(cfd5097c524fbe647928628fc330a9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa50039317cecd50144ad004015186d') in 0.010560 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oculus/Voice/Lib/Wit.ai/Tests/Runtime/WitConfiguration.asset
+  artifactKey: Guid(644c61eed1a1a1c4cac45350a47048e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Lib/Wit.ai/Tests/Runtime/WitConfiguration.asset using Guid(644c61eed1a1a1c4cac45350a47048e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37e8ed3865a11b90de52763e20d55e8') in 0.035269 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs
-  artifactKey: Guid(e02b148a5d39b224d839f44c79a83dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs using Guid(e02b148a5d39b224d839f44c79a83dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5dfb42d52306fc5b79494e4a9442886') in 0.009801 seconds 
+  Time since last request: 254.053340 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c0c78c0c8b35f5c4da7e64c28704e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c0c78c0c8b35f5c4da7e64c28704e440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e865e9c0bd877c8f0e82ee4d970e836') in 0.015312 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bedroom Black Outline.prefab
-  artifactKey: Guid(35c33fc4e5bde6f4388aa8f9abdb248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bedroom Black Outline.prefab using Guid(35c33fc4e5bde6f4388aa8f9abdb248e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '6aadc3f266db2640012ac2d369bd1f00') in 0.172192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.214138 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bedroom.prefab
-  artifactKey: Guid(a5957196878cbb742b8410c1c5698b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Bedroom.prefab using Guid(a5957196878cbb742b8410c1c5698b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6491380368f71c95b4f2e580b05c2ef') in 0.130766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.316980 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen Black Outline.prefab
-  artifactKey: Guid(59bd13e01056d5b49ac505d28ba59781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen Black Outline.prefab using Guid(59bd13e01056d5b49ac505d28ba59781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: 'cc66913f2961c646067907bb82e9e3d3') in 0.163776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.412829 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen Green Outline.prefab
-  artifactKey: Guid(1c72b132ce0ea9e45871d801cfc0149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen Green Outline.prefab using Guid(1c72b132ce0ea9e45871d801cfc0149b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '0f0011f0259fd6df66e7df09f648b56c') in 0.125161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.300655 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen No Robert.prefab
-  artifactKey: Guid(2d9c4b6cd89ad324a92290dac1a42684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen No Robert.prefab using Guid(2d9c4b6cd89ad324a92290dac1a42684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66296d10ea385408939304ee1400dfdd') in 0.098227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.248883 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen.prefab
-  artifactKey: Guid(5978812ac04bc774d8d403acba3e6dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Kitchen.prefab using Guid(5978812ac04bc774d8d403acba3e6dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '0c7c3f93227070841923ae4be10d461b') in 0.120596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.199156 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Livingroom.prefab
-  artifactKey: Guid(0fe14e4defa705640a322ac1f952ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Livingroom.prefab using Guid(0fe14e4defa705640a322ac1f952ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086aebe6ef78aff83c71d3ccf206a979') in 0.118207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.199366 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom Black Outline.prefab
-  artifactKey: Guid(f961963b4a6017646bc165f6ee61df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom Black Outline.prefab using Guid(f961963b4a6017646bc165f6ee61df72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '41b0daf0d6fc2b7443ff581afaebd422') in 0.073153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.263485 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom.prefab
-  artifactKey: Guid(e789afc8d4b9d8f458354ae49aacfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Ready Rooms Prefabs/Workroom.prefab using Guid(e789afc8d4b9d8f458354ae49aacfdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21937a8fbff156d8036ca59f40837149') in 0.075800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.015999 seconds.
-  path: Assets/POLYTEX - Home/Textures
-  artifactKey: Guid(939efa1d836380f4f951cfa5d266a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Textures using Guid(939efa1d836380f4f951cfa5d266a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208f6b9e2e66b2758a0e42a322ec4967') in 0.007917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.369050 seconds.
-  path: Assets/POLYTEX - Home/Settings
-  artifactKey: Guid(9fd40feda342ef146811ed1ec90541ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Settings using Guid(9fd40feda342ef146811ed1ec90541ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f360af782c694a7e430e7f2e2be475') in 0.007432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.449734 seconds.
-  path: Assets/POLYTEX - Home/Scenes
-  artifactKey: Guid(ec9dee6b2edc724499560fa3ed6752fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes using Guid(ec9dee6b2edc724499560fa3ed6752fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed2ab1206006274586fa54a30821874') in 0.022497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.468969 seconds.
-  path: Assets/POLYTEX - Home/Scenes/All Prefabs
-  artifactKey: Guid(3ae63901154122648a715ee403846169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/All Prefabs using Guid(3ae63901154122648a715ee403846169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362f4501c849027b0bcec0bc4cdfffe4') in 0.007749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.799999 seconds.
-  path: Assets/POLYTEX - Home/Scenes/All Prefabs/Lightmap-0_comp_dir.png
-  artifactKey: Guid(14f992747d1ab2648bbade2029ce4316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/All Prefabs/Lightmap-0_comp_dir.png using Guid(14f992747d1ab2648bbade2029ce4316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ac1c3c3422b795d0d049a8f36587e') in 0.035139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.651901 seconds.
-  path: Assets/POLYTEX - Home/Scenes/All Prefabs/ReflectionProbe-0.exr
-  artifactKey: Guid(0450e80fbdbebbf4bae0e89ec89fe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/All Prefabs/ReflectionProbe-0.exr using Guid(0450e80fbdbebbf4bae0e89ec89fe033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd00d74e95b3a2bc2d7cb5504f563f2') in 0.047552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.166101 seconds.
-  path: Assets/POLYTEX - Home/Scenes/All Prefabs/LightingData.asset
-  artifactKey: Guid(04b9902ee229d2648a334e4f7364355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/All Prefabs/LightingData.asset using Guid(04b9902ee229d2648a334e4f7364355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767113df724a7b0df71d4ed6c17bd0bf') in 0.008374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.110586 seconds.
-  path: Assets/POLYTEX - Home/Scripts
-  artifactKey: Guid(19bca1987a03f6b4db3e77b08ec880d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scripts using Guid(19bca1987a03f6b4db3e77b08ec880d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f6a6bc1a225e50b9fe3874a8dd732e') in 0.007122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.431436 seconds.
-  path: Assets/POLYTEX - Home/Materials
-  artifactKey: Guid(6df67843981e35c418d1a6e63768974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Materials using Guid(6df67843981e35c418d1a6e63768974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34bec7f1e1e2f6d1f32f3ca280dcfe3') in 0.006372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.162638 seconds.
-  path: Assets/POLYTEX - Home/Models
-  artifactKey: Guid(2f400019c656e354b965dc22fa0947e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models using Guid(2f400019c656e354b965dc22fa0947e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aa633c2617c3d3371925107def77bf') in 0.009624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.153022 seconds.
-  path: Assets/POLYTEX - Home/Models/Fbx
-  artifactKey: Guid(3efdde43251a2554da38eb52e10bef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models/Fbx using Guid(3efdde43251a2554da38eb52e10bef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3659ad50b62e3efaee97f868f9c25cd') in 0.007674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.355543 seconds.
-  path: Assets/POLYTEX - Home/Models/Fbx/Kitchen
-  artifactKey: Guid(e93ff1c7e46b0044ab4ad1fb9476cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models/Fbx/Kitchen using Guid(e93ff1c7e46b0044ab4ad1fb9476cbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c7410ab5642d0a0a59b1b0a7d3a03b') in 0.002104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.760634 seconds.
-  path: Assets/POLYTEX - Home/Models/Fbx/Kitchen/Kitchen 01_PTX.fbx
-  artifactKey: Guid(fa1e3dd76760d074784de8ff713c07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models/Fbx/Kitchen/Kitchen 01_PTX.fbx using Guid(fa1e3dd76760d074784de8ff713c07f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3527f93e3219c7aace58c922d663b2') in 0.318742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.457342 seconds.
-  path: Assets/POLYTEX - Home/Outline Shader
-  artifactKey: Guid(998cfee29a76d1f4c90568634afb137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Outline Shader using Guid(998cfee29a76d1f4c90568634afb137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96e0c712dea36c8b2c70f80a84ff66a') in 0.007659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.101141 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Kitchen Scene.unity
-  artifactKey: Guid(6c5bfa136d923784e80700b1719d2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Kitchen Scene.unity using Guid(6c5bfa136d923784e80700b1719d2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce9df42ab467039fa150ffb77cb8b44') in 0.008266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.762710 seconds.
-  path: Assets/POLYTEX - Home/Outline Shader/Outline Shader.shader
-  artifactKey: Guid(7f07808f8bfcb304daed38315e03402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Outline Shader/Outline Shader.shader using Guid(7f07808f8bfcb304daed38315e03402d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
- -> (artifact id: '29bc75c726d3bc8dc109d2449227b0e1') in 0.005996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 101.591787 seconds.
-  path: Assets/POLYTEX - Home/Outline Shader/OutlineScript.cs
-  artifactKey: Guid(49c8657e75db75d408fca709d341728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Outline Shader/OutlineScript.cs using Guid(49c8657e75db75d408fca709d341728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14de7fe58315012768280d5b4375d7e7') in 0.017573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.839317 seconds.
-  path: Assets/POLYTEX - Home/Outline Shader/OutlineShader_Outline.shadergraph
-  artifactKey: Guid(25ad950bac68af14b9069a8e3e14ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Outline Shader/OutlineShader_Outline.shadergraph using Guid(25ad950bac68af14b9069a8e3e14ac35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba27a4a7963784b914dc2c62e7ded6b') in 0.012142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.588933 seconds.
-  path: Assets/POLYTEX - Home/Outline Shader/Readme.txt
-  artifactKey: Guid(8888b12b3ad698a4d8cc1f963901a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Outline Shader/Readme.txt using Guid(8888b12b3ad698a4d8cc1f963901a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae155a02461861eec52ad035716bd72') in 0.016944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.139446 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab
-  artifactKey: Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab using Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adff7a25ba0fc5548f9d9e565015753') in 0.022231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.947233 seconds.
-  path: Assets/POLYTEX - Home/Materials/Bathroom Materials
-  artifactKey: Guid(9f32028e09a501d4682d254e87ef6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Materials/Bathroom Materials using Guid(9f32028e09a501d4682d254e87ef6ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dff433c5887f1b674a7d613e10ce83d') in 0.007982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.657527 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathtub 01_PTX.prefab
-  artifactKey: Guid(d31ae4ebc5f1d454d80998db8bd4c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathtub 01_PTX.prefab using Guid(d31ae4ebc5f1d454d80998db8bd4c346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87c9623d22d3f78789d8cef862bd1a2') in 0.027501 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.514183 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Table 01_PTX.prefab
-  artifactKey: Guid(719d5fb894c63b040b6071d73cd4dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Table 01_PTX.prefab using Guid(719d5fb894c63b040b6071d73cd4dadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15da3a4ab9faf6cb9e6b184a8ff0733') in 0.021582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.418572 seconds.
-  path: Assets/Oculus/Platform/Samples/VrHoops/Bouncey.physicMaterial
-  artifactKey: Guid(b9c664160cb7a724d9777a6ad6222a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Platform/Samples/VrHoops/Bouncey.physicMaterial using Guid(b9c664160cb7a724d9777a6ad6222a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d323d6b81b2400b000cd23acc101bc3') in 0.012935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/RubberPhysMat.physicMaterial
-  artifactKey: Guid(948611cc428a84b569ad7626e6649205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/PhysicsMaterials/RubberPhysMat.physicMaterial using Guid(948611cc428a84b569ad7626e6649205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11753e2af420f4899a405084199e3224') in 0.008906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.174489 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab
-  artifactKey: Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab using Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9309656d45a11931b8189c54a433eba') in 0.020607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.519886 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab
-  artifactKey: Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab using Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79148218b749cca5d4b52449b1a84ba') in 0.018696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.597834 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab
-  artifactKey: Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Bathroom Sink 01_PTX.prefab using Guid(1f165207b09535c429782bd00411b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65eee71ab78e3e1e97044e9c024b183d') in 0.016320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 65.910131 seconds.
-  path: Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Shower.prefab
-  artifactKey: Guid(82cb5493002a60947bb66a63fe73659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Prefabs/Bathroom Prefabs/Shower.prefab using Guid(82cb5493002a60947bb66a63fe73659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05a2190b7797d5c56eab6c1b37f8142') in 0.026356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.142642 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Bedroom Scene Outline (Black) Light Rotate.unity
-  artifactKey: Guid(51472870fe303ee47926a5fd767ee240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Bedroom Scene Outline (Black) Light Rotate.unity using Guid(51472870fe303ee47926a5fd767ee240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407ceac63ab6bd280494517ab8689424') in 0.007306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.788343 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Bedroom Scene.unity
-  artifactKey: Guid(e38b3baf434255342898824e1426552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Bedroom Scene.unity using Guid(e38b3baf434255342898824e1426552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3259fc74665f03d4c1e8bdf55f1e17') in 0.008651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.110263 seconds.
-  path: Assets/POLYTEX - Home/Models/Fbx/Bathroom
-  artifactKey: Guid(64bc0f09920c4184ab79f3e8623f94f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models/Fbx/Bathroom using Guid(64bc0f09920c4184ab79f3e8623f94f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf6b267dafc13343b4ef6e3770e9ac5') in 0.002588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.848576 seconds.
-  path: Assets/POLYTEX - Home/Models/Fbx/Furniture
-  artifactKey: Guid(437ca072dd79d954c80dc1d92e991d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Models/Fbx/Furniture using Guid(437ca072dd79d954c80dc1d92e991d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25dd19ab61ca89dc077bfc9ded09e2') in 0.008967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.691613 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(45c7605ba00dbb54092e565ff1f482a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(45c7605ba00dbb54092e565ff1f482a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42d03ca215bc1d63d404e74356a2aa') in 0.006815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.432325 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464905cf348a3030ff915904016b0176') in 0.003290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.094739 seconds.
-  path: Assets/POLYTEX - Home
-  artifactKey: Guid(3e4fc3783a625d34a9388e018f70a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home using Guid(3e4fc3783a625d34a9388e018f70a83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f70f94ff885a172451a7e358b363ff') in 0.008333 seconds 
+  Time since last request: 21.387087 seconds.
+  path: Assets/Scripts/ActiveVoice.cs
+  artifactKey: Guid(46073ddc8de71b545a393a5b53b68687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActiveVoice.cs using Guid(46073ddc8de71b545a393a5b53b68687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f02e9ec92068b93c1cc7445859ae1') in 0.017349 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009991 seconds.
+Registered in 0.009981 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.52 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.628 seconds
+- Completed reload, in  1.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1629ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (1593ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1313ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1259ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (596ms)
+			SetupTypeCache (491ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (387ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 10.39 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4888 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (240.8 KB). Loaded Objects now: 5412.
+Memory consumption went from 175.8 MB to 175.6 MB.
+Total: 4.590800 ms (FindLiveObjects: 0.703200 ms CreateObjectMapping: 0.329200 ms MarkObjects: 3.363900 ms  DeleteObjects: 0.193100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.647533 seconds.
+  path: Assets/Scripts/AvatarAnimController.cs
+  artifactKey: Guid(3275132d56b78874fb473167023f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarAnimController.cs using Guid(3275132d56b78874fb473167023f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfb4b817b32bfe5c8fcc9aeb1721dbe') in 0.014368 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2336ms)
+		BeginReloadAssembly (365ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (441ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (929ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (586ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (25ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
@@ -500,12 +305,12 @@ Platform modules already initialized, skipping
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.48 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 9.42 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4887 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (243.5 KB). Loaded Objects now: 5447.
-Memory consumption went from 194.7 MB to 194.5 MB.
-Total: 4.806000 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.421700 ms MarkObjects: 3.668600 ms  DeleteObjects: 0.209000 ms)
+Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (248.9 KB). Loaded Objects now: 5417.
+Memory consumption went from 175.8 MB to 175.6 MB.
+Total: 6.908900 ms (FindLiveObjects: 1.565300 ms CreateObjectMapping: 0.944600 ms MarkObjects: 4.203500 ms  DeleteObjects: 0.192500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -521,49 +326,52 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011578 seconds.
+Registered in 0.009396 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.760 seconds
+- Completed reload, in  1.541 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1761ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (1542ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1373ms)
-			LoadAssemblies (129ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1237ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (497ms)
+			SetupTypeCache (468ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (606ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (516ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (400ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.28 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4887 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (251.3 KB). Loaded Objects now: 5451.
-Memory consumption went from 194.8 MB to 194.5 MB.
-Total: 3.744600 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.370200 ms MarkObjects: 2.727000 ms  DeleteObjects: 0.202700 ms)
+Refreshing native plugins compatible for Editor in 7.68 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (240.8 KB). Loaded Objects now: 5421.
+Memory consumption went from 175.8 MB to 175.6 MB.
+Total: 4.813900 ms (FindLiveObjects: 0.565000 ms CreateObjectMapping: 0.542700 ms MarkObjects: 3.451100 ms  DeleteObjects: 0.254000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -578,98 +386,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 292.126418 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Kitchen Scene
-  artifactKey: Guid(af79b0655dad1f14b8c2a1fc95bedcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Kitchen Scene using Guid(af79b0655dad1f14b8c2a1fc95bedcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90324d7921393a3815f162f829706426') in 0.018690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.797877 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Bedroom Scene.unity
-  artifactKey: Guid(e38b3baf434255342898824e1426552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Bedroom Scene.unity using Guid(e38b3baf434255342898824e1426552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdebd2ca3dd04385659bac9884020d0') in 0.002548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.749584 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e43ca7cb44e6e141164d4a671310e9') in 0.009393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.579526 seconds.
-  path: Assets/Scenes/main.unity
-  artifactKey: Guid(ab7415e73c4ed204e85f0ec79f0ee4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main.unity using Guid(ab7415e73c4ed204e85f0ec79f0ee4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b13799dff083529564d11fa7f9cc6') in 0.009444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.795844 seconds.
-  path: Assets/Scenes/intro_menu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/intro_menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fb71636e534342ac26038de1832d65') in 0.007495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.228794 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Livingroom Scene
-  artifactKey: Guid(3b0805cc709bbb84d89deaf98b12b49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Livingroom Scene using Guid(3b0805cc709bbb84d89deaf98b12b49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893d25006259b22c49d7bae6fbe17b9b') in 0.008378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.845888 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Livingroom Scene/LightingData.asset
-  artifactKey: Guid(49c258643443ad34faf384131714fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Livingroom Scene/LightingData.asset using Guid(49c258643443ad34faf384131714fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba4182db1520a4386801aa8e2d97e3') in 0.017200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.960986 seconds.
-  path: Assets/POLYTEX - Home/Scenes/Livingroom Scene.unity
-  artifactKey: Guid(887b048b16a154742ade64161d2ac66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYTEX - Home/Scenes/Livingroom Scene.unity using Guid(887b048b16a154742ade64161d2ac66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e84da9fd0262e61401401dea692ca76') in 0.008599 seconds 
+  Time since last request: 486.492888 seconds.
+  path: Assets/Scripts/AvatarAnimController.cs
+  artifactKey: Guid(3275132d56b78874fb473167023f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AvatarAnimController.cs using Guid(3275132d56b78874fb473167023f032e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f1804773694ea55bcc6a4edf26298c') in 0.009816 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010388 seconds.
+Registered in 0.010487 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Parrot\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.29 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.691 seconds
+- Completed reload, in  1.600 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1692ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (1601ms)
+		BeginReloadAssembly (190ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1351ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (611ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (585ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (401ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (21ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Unlit/Outline': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 10.00 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4887 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (251.5 KB). Loaded Objects now: 5455.
-Memory consumption went from 194.8 MB to 194.5 MB.
-Total: 4.025500 ms (FindLiveObjects: 0.475500 ms CreateObjectMapping: 0.384400 ms MarkObjects: 2.881000 ms  DeleteObjects: 0.283100 ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 12.48 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (240.7 KB). Loaded Objects now: 5425.
+Memory consumption went from 176.0 MB to 175.8 MB.
+Total: 6.826600 ms (FindLiveObjects: 1.388000 ms CreateObjectMapping: 1.894300 ms MarkObjects: 3.323100 ms  DeleteObjects: 0.204400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -684,19 +453,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 123.236412 seconds.
-  path: Assets/Scenes/back_up1.unity
-  artifactKey: Guid(47cfb8cff7476e64c95323c5a2e28b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/back_up1.unity using Guid(47cfb8cff7476e64c95323c5a2e28b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd131e88e54c05762178425cf3dd222') in 0.018997 seconds 
+  Time since last request: 404.277754 seconds.
+  path: Assets/Scripts/ActiveVoice.cs
+  artifactKey: Guid(46073ddc8de71b545a393a5b53b68687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActiveVoice.cs using Guid(46073ddc8de71b545a393a5b53b68687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b128a4607ddbfe21c7c8d5371a3a65c7') in 0.011630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.512525 seconds.
-  path: Assets/Scenes/main.unity
-  artifactKey: Guid(ab7415e73c4ed204e85f0ec79f0ee4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main.unity using Guid(ab7415e73c4ed204e85f0ec79f0ee4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f01be61eeb8bde41f2e9c61dbf5aa69') in 0.002885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.639943 seconds.
-  path: Assets/Scenes/back_up1.unity
-  artifactKey: Guid(47cfb8cff7476e64c95323c5a2e28b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/back_up1.unity using Guid(47cfb8cff7476e64c95323c5a2e28b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf7be0dd51f156fbdf48d4114416b1b') in 0.002671 seconds 
+  Time since last request: 5.580199 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c685b5e13e3f19a1e566e43294456a') in 2.121901 seconds 
