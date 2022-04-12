@@ -1,0 +1,56 @@
+{
+    "name": "VRControls",
+    "maps": [
+        {
+            "name": "VoiceAction",
+            "id": "11acd587-0191-4b80-ae6b-7d0a82ce15f0",
+            "actions": [
+                {
+                    "name": "VoiceTrigger",
+                    "type": "Button",
+                    "id": "91a5d144-c367-4340-8ac4-601c5c21a1ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "da73a928-3c45-442d-839c-32d089d1091f",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08054572-ba76-4285-8f90-26bc06d3f772",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7300cbe3-679b-4c0c-8923-8d12230f2837",
+                    "path": "<OculusTouchController>/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
