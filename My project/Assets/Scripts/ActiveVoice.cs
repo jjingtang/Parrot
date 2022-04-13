@@ -25,12 +25,14 @@ public class ActiveVoice : MonoBehaviour
 
     public void TriggerPressed(InputAction.CallbackContext context)
     {
+        Debug.Log("Trigger button pressed");
         if (context.performed)
             WitActivate();
     }
 
     public void WitActivate()
     {
+        Debug.Log("wit is active");
         wit.Activate();
     }
 }

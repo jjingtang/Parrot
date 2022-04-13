@@ -26,6 +26,7 @@ public class AvatarAnimController : MonoBehaviour
     {
         if(values[0] == "true")
         {
+            Debug.Log("wit output value is true, perform greeting action");
             anim.SetBool("isGreeting",true);
         }
         else

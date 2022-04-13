@@ -48,6 +48,17 @@
                     "action": "VoiceTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0a3781ce-f250-4058-aa30-c90c2d27c1a4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
