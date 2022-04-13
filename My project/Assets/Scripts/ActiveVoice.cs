@@ -27,7 +27,11 @@ public class ActiveVoice : MonoBehaviour
     {
         Debug.Log("Trigger button pressed");
         if (context.performed)
+        {
             WitActivate();
+            Debug.Log(context.ToString());
+            //wit.SendMessage(context.ToString());
+        }
     }
 
     public void WitActivate()

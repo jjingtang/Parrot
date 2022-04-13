@@ -948,6 +948,7 @@ GameObject:
   - component: {fileID: 1613130413}
   - component: {fileID: 1613130412}
   - component: {fileID: 1613130414}
+  - component: {fileID: 1613130415}
   m_Layer: 0
   m_Name: XRRig
   m_TagString: Untagged
@@ -1029,7 +1030,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_ActionId: 91a5d144-c367-4340-8ac4-601c5c21a1ae
     m_ActionName: VoiceAction/VoiceTrigger
   m_NeverAutoSwitchControlSchemes: 0
@@ -1037,6 +1038,20 @@ MonoBehaviour:
   m_DefaultActionMap: VoiceAction
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1613130415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613130411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: eaf8ccec18a4bc242bfd509e9b7a1ecd, type: 3}
 --- !u!1 &1889264774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a660cfb55bd48d641b60c498f5dfed76,
