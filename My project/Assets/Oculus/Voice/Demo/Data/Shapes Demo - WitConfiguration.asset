@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Shapes Demo - WitConfiguration
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: parrot
+    id: 354270986745238
+    lang: en
+    isPrivate: 0
+    createdAt: 2022-04-11T00:19:29-0700
+  configId: 4e21a24e472ab684e84db753427d5687
+  clientAccessToken: 2WAXE2O5TFHXOQ3AQKZFJYIVSPMXBXOX
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1648012682222743
+    name: emotion_status
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 331801415505342
+      name: emotion_status
+    keywords:
+    - keyword: tired
+      synonyms:
+      - tired
+    - keyword: work
+      synonyms:
+      - job
+      - work
+  - witConfiguration: {fileID: 11400000}
+    id: 523834215963059
+    name: greeting
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 674057677207647
+      name: greeting
+    keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 360745989373719
+    name: happy
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 720707562273247
+      name: happy
+    keywords:
+    - keyword: glad
+      synonyms:
+      - blessed
+      - glad
+      - happy
+      - joy
+      - laugh
+      - lucky
+      - satisfied
+      - whoop whoop
+  - witConfiguration: {fileID: 11400000}
+    id: 502088054706320
+    name: neutral
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 497312995423292
+      name: neutral
+    keywords:
+    - keyword: hungry
+      synonyms:
+      - food
+      - hungry
+    - keyword: not much
+      synonyms:
+      - not much
+      - nothing
+    - keyword: tired
+      synonyms:
+      - busy
+      - exhausting
+      - tired
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 370940458264011
+    name: wit_emotion_detection
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 331801415505342
+      name: emotion_status:emotion_status
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 720707562273247
+      name: happy:happy
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1883450778505147
+    name: wit_greeting
+    entities: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 5900cc2d-41b7-45b2-b21f-b950d3ae3c5c
+    name: wit$greetings
+    values:
+    - id: 547401529279585
+      value: true
+  - witConfiguration: {fileID: 11400000}
+    id: 1088863601662165
+    name: work
+    values: []
