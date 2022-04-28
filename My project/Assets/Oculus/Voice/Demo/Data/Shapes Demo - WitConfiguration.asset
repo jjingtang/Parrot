@@ -56,27 +56,55 @@ MonoBehaviour:
     roles:
     - id: 674057677207647
       name: greeting
-    keywords: []
+    keywords:
+    - keyword: hello
+      synonyms:
+      - good day
+      - hello
+      - hey
+      - hi
+      - howdy
+      - sup
+      - what's up
   - witConfiguration: {fileID: 11400000}
-    id: 360745989373719
-    name: happy
+    id: 4554542734650667
+    name: negative
     lookups:
     - free-text
     - keywords
     roles:
-    - id: 720707562273247
-      name: happy
+    - id: 3145841709021965
+      name: negative
     keywords:
-    - keyword: glad
+    - keyword: angry
       synonyms:
-      - blessed
-      - glad
-      - happy
-      - joy
-      - laugh
-      - lucky
-      - satisfied
-      - whoop whoop
+      - angry
+      - fuck off
+      - piss
+    - keyword: annoyed
+      synonyms:
+      - annoyed
+      - fed up
+    - keyword: regret
+      synonyms:
+      - fear
+      - guilty
+      - overdid
+      - pity
+      - regret
+      - remorse
+      - shame
+    - keyword: sad
+      synonyms:
+      - bad mood
+      - depressed
+      - grief
+      - heartbreak
+      - hurt
+      - not feeling
+      - painful
+      - sad
+      - upset
   - witConfiguration: {fileID: 11400000}
     id: 502088054706320
     name: neutral
@@ -89,10 +117,12 @@ MonoBehaviour:
     keywords:
     - keyword: hungry
       synonyms:
-      - food
       - hungry
+      - starving
     - keyword: not much
       synonyms:
+      - bored
+      - just so so
       - not much
       - nothing
     - keyword: tired
@@ -100,6 +130,49 @@ MonoBehaviour:
       - busy
       - exhausting
       - tired
+  - witConfiguration: {fileID: 11400000}
+    id: 360745989373719
+    name: positive
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 720707562273247
+      name: happy
+    keywords:
+    - keyword: glad
+      synonyms:
+      - blessed
+      - exciting
+      - glad
+      - good
+      - happy
+      - joy
+      - laugh
+      - lucky
+      - pleased
+      - satisfied
+      - whoop whoop
+      - woohoo
+      - wow
+    - keyword: new
+      synonyms:
+      - beautiful
+      - cute
+      - cutest
+      - new
+      - pretty
+      - shining
+    - keyword: yummy
+      synonyms:
+      - amazing
+      - appetising
+      - best
+      - delicious
+      - incredible
+      - mouthwatering
+      - tasty
+      - yummy
   intents:
   - witConfiguration: {fileID: 11400000}
     id: 370940458264011
@@ -112,15 +185,33 @@ MonoBehaviour:
       roles: []
       keywords: []
     - witConfiguration: {fileID: 11400000}
+      id: 3145841709021965
+      name: negative:negative
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 497312995423292
+      name: neutral:neutral
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
       id: 720707562273247
-      name: happy:happy
+      name: positive:happy
       lookups: []
       roles: []
       keywords: []
   - witConfiguration: {fileID: 11400000}
     id: 1883450778505147
     name: wit_greeting
-    entities: []
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 674057677207647
+      name: greeting:greeting
+      lookups: []
+      roles: []
+      keywords: []
   traits:
   - witConfiguration: {fileID: 11400000}
     id: 5900cc2d-41b7-45b2-b21f-b950d3ae3c5c

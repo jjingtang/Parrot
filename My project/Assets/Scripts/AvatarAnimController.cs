@@ -24,6 +24,7 @@ public class AvatarAnimController : MonoBehaviour
 
     public void Greeting(string[] values)
     {
+        Debug.Log("Greeting function called");
         if(values[0] == "hello")
         {
             Debug.Log("wit output value is true, perform greeting action");

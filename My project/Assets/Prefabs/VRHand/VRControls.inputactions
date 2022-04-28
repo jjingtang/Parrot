@@ -59,6 +59,17 @@
                     "action": "VoiceTrigger",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7380ea5b-4d82-4b4a-a9a9-7dbaeba83143",
+                    "path": "<OculusTouchController>/gripPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoiceTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
