@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: WitConfig
+  m_EditorClassIdentifier: 
+  application:
+    witConfiguration: {fileID: 11400000}
+    name: parrot
+    id: 354270986745238
+    lang: en
+    isPrivate: 0
+    createdAt: 2022-04-11T00:19:29-0700
+  configId: bc5cc6b71580c0c48858890c104745ed
+  clientAccessToken: 2WAXE2O5TFHXOQ3AQKZFJYIVSPMXBXOX
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+  entities:
+  - witConfiguration: {fileID: 11400000}
+    id: 1648012682222743
+    name: emotion_status
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 331801415505342
+      name: emotion_status
+    keywords:
+    - keyword: tired
+      synonyms:
+      - tired
+    - keyword: work
+      synonyms:
+      - job
+      - work
+  - witConfiguration: {fileID: 11400000}
+    id: 523834215963059
+    name: greeting
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 674057677207647
+      name: greeting
+    keywords:
+    - keyword: hello
+      synonyms:
+      - good day
+      - hello
+      - hey
+      - hi
+      - howdy
+      - sup
+      - what's up
+  - witConfiguration: {fileID: 11400000}
+    id: 4554542734650667
+    name: negative
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 3145841709021965
+      name: negative
+    keywords:
+    - keyword: angry
+      synonyms:
+      - angry
+      - fuck off
+      - piss
+    - keyword: annoyed
+      synonyms:
+      - annoyed
+      - fed up
+    - keyword: regret
+      synonyms:
+      - fear
+      - guilty
+      - overdid
+      - pity
+      - regret
+      - remorse
+      - shame
+    - keyword: sad
+      synonyms:
+      - bad mood
+      - depressed
+      - grief
+      - heartbreak
+      - hurt
+      - not feeling
+      - painful
+      - sad
+      - upset
+  - witConfiguration: {fileID: 11400000}
+    id: 502088054706320
+    name: neutral
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 497312995423292
+      name: neutral
+    keywords:
+    - keyword: hungry
+      synonyms:
+      - hungry
+      - starving
+    - keyword: not much
+      synonyms:
+      - bored
+      - just so so
+      - not much
+      - nothing
+    - keyword: tired
+      synonyms:
+      - busy
+      - exhausting
+      - tired
+  - witConfiguration: {fileID: 11400000}
+    id: 360745989373719
+    name: positive
+    lookups:
+    - free-text
+    - keywords
+    roles:
+    - id: 720707562273247
+      name: happy
+    keywords:
+    - keyword: glad
+      synonyms:
+      - blessed
+      - exciting
+      - glad
+      - good
+      - happy
+      - joy
+      - laugh
+      - lucky
+      - pleased
+      - satisfied
+      - whoop whoop
+      - woohoo
+      - wow
+    - keyword: new
+      synonyms:
+      - beautiful
+      - cute
+      - cutest
+      - new
+      - pretty
+      - shining
+    - keyword: yummy
+      synonyms:
+      - amazing
+      - appetising
+      - best
+      - delicious
+      - incredible
+      - mouthwatering
+      - tasty
+      - yummy
+  intents:
+  - witConfiguration: {fileID: 11400000}
+    id: 370940458264011
+    name: wit_emotion_detection
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 331801415505342
+      name: emotion_status:emotion_status
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 3145841709021965
+      name: negative:negative
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 497312995423292
+      name: neutral:neutral
+      lookups: []
+      roles: []
+      keywords: []
+    - witConfiguration: {fileID: 11400000}
+      id: 720707562273247
+      name: positive:happy
+      lookups: []
+      roles: []
+      keywords: []
+  - witConfiguration: {fileID: 11400000}
+    id: 1883450778505147
+    name: wit_greeting
+    entities:
+    - witConfiguration: {fileID: 11400000}
+      id: 674057677207647
+      name: greeting:greeting
+      lookups: []
+      roles: []
+      keywords: []
+  traits:
+  - witConfiguration: {fileID: 11400000}
+    id: 5900cc2d-41b7-45b2-b21f-b950d3ae3c5c
+    name: wit$greetings
+    values:
+    - id: 547401529279585
+      value: true
+  - witConfiguration: {fileID: 11400000}
+    id: 1088863601662165
+    name: work
+    values: []

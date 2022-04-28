@@ -24,15 +24,19 @@ public class AvatarAnimController : MonoBehaviour
 
     public void Greeting(string[] values)
     {
-        if(values[0] == "hello")
+        var actionString = values[0];
+        if (string.IsNullOrEmpty(actionString)) return;
+
+        if (actionString == "hello")
         {
             Debug.Log("wit output value is true, perform greeting action");
             anim.SetBool("isGreeting",true);
+            return;
         }
         else
         {
             anim.SetBool("isGreeting", false);
-
+            return;
         }
     }
 }
